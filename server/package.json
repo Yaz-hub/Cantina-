@@ -1,0 +1,22 @@
+{
+  "name": "em-cantina-server",
+  "version": "1.0.0",
+  "description": "Serveur web pour un projet d'études de l'Ecole Multimédia",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "server:dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "J.M. Cléry <jmclery@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
